@@ -6,19 +6,19 @@
 
 int main() {
 	   	
-	int x;
-	int c;
+	int no1;
+	int no2;
 	float total;
 	float avg; 
 	
-	printf("enter subject 1 mark ");
-	scanf("%d",&x);
-	printf("enter subject 2 mark ");
-	scanf("%d",&c);
+	printf("Enter the subject 1 mark :");
+	scanf("%d",&no1);
+	printf("Enter the subject 2 mark :");
+	scanf("%d",&no2);
 	
-	total=x+c;
+	total=no1+no2;
 	avg=total/2.0;
-	printf("average is %.2f ",avg);
+	printf("Average is %.2f :",avg);
 	
   
   return 0;
