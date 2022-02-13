@@ -5,8 +5,8 @@
 #include <stdio.h>
 
 int main() {
-   
-   int x;
+	   	
+	int x;
 	int c;
 	float total;
 	float avg; 
